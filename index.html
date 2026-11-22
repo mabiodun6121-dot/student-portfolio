@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Student Portfolio and Academic Website</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Student Portfolio and Academic Website</h1>
+        <nav>
+            <ul>
+            <li><a href="#homepage">Home page</a></li>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#academic-planner">Academic Planner</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+<hr />
+    <!--The main content of my site begins here, first with the homepage--> 
+    <main>
+        <section id="homepage">
+            <h2>Home Page</h2>
+            <div class="homepage-container">
+                <img src="WhatsApp Image 2026-11-22 at 16.50.49.jpeg" alt="My picture" width="220">
+                <div class="homepage-text">
+                    <p>Hi! My name is Melody, welcome to my web page. I am a 100 Level Cybersecurity student at Miva University. I am passionate about developing web pages and securing them. Through this project, I aim to showcase my skills and knowledge in the field of cybersecurity.</p>
+                </div>
+            </div>
+        </section>
+        <hr />
+
+        <section id="about-me">
+            <h2>About Me.</h2>
+            <p>I am a 100-level, second-semester university student with a strong passion for science and technology. Currently starting my journey in tech, I am actively building my foundational skills—beginning with HTML—with the goal of becoming a software developer and cybersecurity professional.
+Above all, I love God, and what I enjoy most is living for Christ and serving Him.</p>
+        </section>
+        <hr />
+
+        <section id="projects">
+            <h2>Projects.</h2>
+            <p>Here are some of the projects I have worked on and aim to work on:</p>
+            <ul class="project-list">
+                <li>
+                    <p>Project 1: Cybersecurity Awareness Campaign</p>
+                    <img src="Screenshot 2026-11-22 183354.png" alt="Project 1" width="200">
+                    <p> It's a web page built to raise awareness about cyber threats and cybersecurity measures.</p>
+                    <a href="#">View Project</a>
+                </li>
+                <li>
+                    <p>Project 2: Personal Portfolio Website.</p>
+                    <img src="Screenshot 2026-11-22 184324.png" alt="Project 2" width="200">
+                    <p> It is a web page that showcaes my personal credibilities and credentials.</p>
+                    <a href="#">View Project</a>
+                </li>
+                <li>
+                    <p> Project 3: Simple Web Application.</p>
+                    <img src="Screenshot 2026-11-22 185010.png" alt="Project 3" width="200">
+                    <p> It is a simple web application used to display the days, weeks and months in a year.</p>
+                    <a href="#">View Project</a>
+                </li>
+            </ul>
+            <hr />
+
+        <section id="academic-planner">
+            <h2>Academic Planner</h2>
+            <p>Organize your academic activities below.</p>
+            <!--Task input section-->
+            <div class="task-input">
+                <input type="text" id="taskInput" placeloder="Enter a new task">
+                <button onclick="addTask()">Add Task</button>
+            </div>
+            <!-- List of tasks-->
+             <ul id="taskList"></ul>
+             </section> 
+<hr />
+          
+                <section id="contact">
+                <h2>Contact Me</h2>
+                <form action="">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br />
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br/>
+
+                    <label for="phone number">Phone Number:</label>
+                    <input type="phone number" id="phone number" name="phone number"><br />
+                    
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+    </main>
+    <script src=""script.js></script>
+</body>
+</html>
